@@ -7,7 +7,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 // network, no clock, no randomness.
 
 const LINE =
-  "Sorry, it's done, it was done at four, but you wrote 'no rush' in the brief and I took that literally, so I've just been sitting on it for six hours waiting for the rush to start.";
+  "Sorry, it's done, it was done at four, but you wrote 'no rush' in the brief and I treated that as an actual instruction, so I've just been sitting on it like a hen for six hours.";
 
 const chars = [...LINE].length;
 if (chars < 1 || chars > 200 || LINE.includes("\n") || !/\S/.test(LINE)) {
